@@ -44,8 +44,8 @@ namespace RtspViewer.Forms.Controls
 
         public VideoView()
         {
-            InitializeComponent();
             _dispatcher = Dispatcher.CurrentDispatcher;
+            InitializeComponent();
         }
 
         ~VideoView() 
